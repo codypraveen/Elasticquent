@@ -17,6 +17,7 @@ return array(
         'hosts'     => ['localhost:9200'],
         'retries'   => 1,
         'basicauthentication' => [env('ELASTICQUENT_USERNAME', 'elastic'), env('ELASTICQUENT_PASSWORD', '')],
+	"cabundle" => "path/to/http_ca.crt"
     ],
 
     /*
